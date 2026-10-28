@@ -1,0 +1,2 @@
+{"timestamp":"2026-10-14T10:25:48.137Z","action":"WEBAUTHN_ENROLL","decision":"ALLOW","reason":"Enrolled platform biometric authenticator","details":{"did":"did:veri:k9v2Fs9F55ouXOeU95TiRm4DERhVPc3PZiK3mK2PvQY","credentialId":"xuTcJdh4eoi_ml5kxxDph6TcuOs"}}
+{"timestamp":"2026-10-27T12:30:16.424Z","verifierId":"hotel-checkin","action":"REQUEST_CHALLENGE","decision":"BLOCK","reason":"Verifier exceeded registered policy with disallowed claims: verifiedProofOfFunds, issueDate, bankName","details":{"disallowedCount":3}}

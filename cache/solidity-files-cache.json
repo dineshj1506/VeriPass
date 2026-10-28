@@ -1,0 +1,41 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/dineshj/Documents/antigravity/quick-mendel/veripass/contracts/contracts/CredentialAnchor.sol": {
+      "lastModificationDate": 1791908823170,
+      "contentHash": "d14e3d7c128131726514432d10d5806a",
+      "sourceName": "contracts/CredentialAnchor.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.24"
+      ],
+      "artifacts": [
+        "CredentialAnchor"
+      ]
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "presentation": {
+    "credential": {
+      "id": "urn:uuid:5dcdee48f3293241655216b2cf275223",
+      "type": [
+        "VerifiableCredential",
+        "PassportCredential"
+      ],
+      "issuer": "did:veri:uJ8E1a93lHHQum6lMphQtaouQc7WgidjPrYrycrnJAY",
+      "subject": "did:veri:Xwa1oh61oSiIn5nkg0rLo7200UOTM40hQlj7R0gvBG0",
+      "issuedAt": "2026-10-22T14:09:53.689Z",
+      "claimDigests": {
+        "fullName": "81087e7ac37312d3019754c0f4cbd5df8f166a7376787e9dbf3dc7ccf36dca8e",
+        "passportNumber": "ef4f1bdc029f567915fce92e9a84c73424ff650e68f190158990582e569f2b9a",
+        "nationality": "a7875b25dbb1de5f38b0b12dc39306256437cc4e08e883276bb485a406250c19",
+        "dateOfBirth": "3dfff698f9be406426800069bda44a5b28de54f9f1745e92bd3f294fe174f6ad",
+        "expiryDate": "c4399a61d257020b2ad75f2f32f6e1a83042acd8a53363e5124dbd9ebdbed338"
+      },
+      "proof": {
+        "type": "Ed25519Signature2020",
+        "created": "2026-10-22T14:09:53.690Z",
+        "verificationMethod": "did:veri:uJ8E1a93lHHQum6lMphQtaouQc7WgidjPrYrycrnJAY",
+        "proofValue": "96Mlj0Kxz-8fkesPkZ7eYujug3cb4sfLpHXx68tmrj3DRQ4lc_Md5mHCkG-H7JJJHHxwn-_GFtBXbEbPauuzDQ"
+      }
+    },
+    "disclosedClaims": {
+      "nationality": "UTOPIA",
+      "expiryDate": "2032-11-20"
+    },
+    "disclosedSalts": {
+      "nationality": "a650eed5660bea2285c1a2d37720247c",
+      "expiryDate": "f4e1cbed12fa961570ad3884e432ca86"
+    },
+    "presentationProof": {
+      "type": "Ed25519Signature2020",
+      "holder": "did:veri:Xwa1oh61oSiIn5nkg0rLo7200UOTM40hQlj7R0gvBG0",
+      "nonce": "4d63875f4aac0deb5c3b806b603485c0",
+      "timestamp": "2026-10-22T14:09:53.690Z",
+      "proofValue": "Tg6wjuNehMdKE4lHIekAwrLEaxbdCsvcuBVmqLDSmNkyoW_ZcMfUi7ZK7LcysdxmdVH9Auv1L5Cn1qkX8Of_Dg"
+    }
+  },
+  "issuerPublicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAuJ8E1a93lHHQum6lMphQtaouQc7WgidjPrYrycrnJAY=\n-----END PUBLIC KEY-----\n",
+  "holderPublicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAXwa1oh61oSiIn5nkg0rLo7200UOTM40hQlj7R0gvBG0=\n-----END PUBLIC KEY-----\n"
+}

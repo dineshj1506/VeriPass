@@ -1,0 +1,32 @@
+{
+  "schengen": {
+    "name": "Schengen Area (EU)",
+    "countries": ["FRANCE", "GERMANY", "SPAIN", "ITALY", "NETHERLANDS", "SCHENGEN", "SWITZERLAND"],
+    "minPassportValidityMonths": 3,
+    "recommendedValidityMonths": 6,
+    "requiredCredentialTypes": [
+      "PassportCredential",
+      "InsuranceCredential",
+      "BankStatementCredential",
+      "ItineraryCredential"
+    ],
+    "insuranceMinCoverageUsd": 35000,
+    "requiresRepatriation": true,
+    "minFundsPerDayUsd": 65,
+    "source": "Guidelines for Indian passport holders based on EU Visa Code Article 12. Must be verified with the official embassy."
+  },
+  "default": {
+    "name": "Standard International Travel Profile",
+    "countries": ["*"],
+    "minPassportValidityMonths": 6,
+    "recommendedValidityMonths": 6,
+    "requiredCredentialTypes": [
+      "PassportCredential",
+      "BankStatementCredential"
+    ],
+    "insuranceMinCoverageUsd": 25000,
+    "requiresRepatriation": false,
+    "minFundsPerDayUsd": 50,
+    "source": "Bureau of Immigration (BOI) India & ICAO international travel norms. Prototype demo rules only."
+  }
+}

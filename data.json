@@ -1,0 +1,471 @@
+{
+  "identities": {
+    "did:veri:_Aa1Lyo0QzroDKNqME9OK5iCI4MHxJai9Hw4mHHthY4": {
+      "did": "did:veri:_Aa1Lyo0QzroDKNqME9OK5iCI4MHxJai9Hw4mHHthY4",
+      "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA/Aa1Lyo0QzroDKNqME9OK5iCI4MHxJai9Hw4mHHthY4=\n-----END PUBLIC KEY-----\n",
+      "privateKeyPem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIFwRI683nd+xptSeUSlo6Pa99dD1sa7BpHYtegRrR0qn\n-----END PRIVATE KEY-----\n",
+      "recoveryConfig": {
+        "guardians": [
+          "guardian1@example.com",
+          "guardian2@example.com",
+          "guardian3@example.com"
+        ],
+        "threshold": 2,
+        "configuredAt": "2026-10-22T14:09:53.695Z"
+      },
+      "createdAt": "2026-10-22T14:09:53.695Z",
+      "updatedAt": "2026-10-22T14:09:53.695Z"
+    },
+    "did:veri:6wY6SIs--hD8AweeAvcNqVC4ypHiqqgnlCNrn2Gw5WI": {
+      "did": "did:veri:6wY6SIs--hD8AweeAvcNqVC4ypHiqqgnlCNrn2Gw5WI",
+      "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA6wY6SIs++hD8AweeAvcNqVC4ypHiqqgnlCNrn2Gw5WI=\n-----END PUBLIC KEY-----\n",
+      "privateKeyPem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIGMT8/DGpNe2c0QJZVMlYkrBGuHfxjRo4V0jZyrxYrSB\n-----END PRIVATE KEY-----\n",
+      "email": "dineshasha45q@gmail.cm",
+      "createdAt": "2026-10-27T12:34:14.241Z",
+      "updatedAt": "2026-10-27T12:34:14.241Z"
+    }
+  },
+  "issuerKeyPair": {
+    "did": "did:veri:Lv0D2JrAQw2CtvqJPv2UaUXktPPK8rHWWu7u6o6npGU",
+    "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEALv0D2JrAQw2CtvqJPv2UaUXktPPK8rHWWu7u6o6npGU=\n-----END PUBLIC KEY-----\n",
+    "privateKeyPem": "-----BEGIN PRIVATE KEY-----\nMC4CAQAwBQYDK2VwBCIEIGpvBdootTxennT4B+0ATld7ne+rGUqIbB5boxyvrKcS\n-----END PRIVATE KEY-----\n"
+  },
+  "wallets": {
+    "did:veri:k9v2Fs9F55ouXOeU95TiRm4DERhVPc3PZiK3mK2PvQY": [
+      {
+        "credential": {
+          "id": "urn:uuid:4e3e15a1-9f07-48b1-9389-0261bd0b1bfa",
+          "type": [
+            "VerifiableCredential",
+            "PassportCredential"
+          ],
+          "issuer": "did:veri:Lv0D2JrAQw2CtvqJPv2UaUXktPPK8rHWWu7u6o6npGU",
+          "subject": "did:veri:k9v2Fs9F55ouXOeU95TiRm4DERhVPc3PZiK3mK2PvQY",
+          "issuedAt": "2026-10-26T15:34:48.642Z",
+          "claimDigests": {
+            "fullName": "7a6d6988e2239879100c25d395c871bbe60c28ae516e033194d498e69a557eb8",
+            "passportNumber": "c997381f265131efb463e8bae0237dc29fb4f3fb43b0dadbe933e057fe8d5e7c",
+            "nationality": "a4f08e6bfb9fd1d54af2f5810cf22d956d52e9c2a5fb5ef993bb9ef8991377e4",
+            "dateOfBirth": "48b205c0729b092d68b0870bad46f3102af2f5e5d8831a3dae6c10387bb6b751",
+            "expiryDate": "f8ba254f1366041b4822173c0e235071dfadc0f89af99b0d2646af8754cae80e",
+            "issuingCountry": "a8f1451f9fc85c2f39ea2caf76212262f820ddaded0fba709e1a7fc7758efb94",
+            "placeOfIssue": "c2742475b0b650023aeaba0268db6a89c52d2b4857804a66107ad26a30ac177b",
+            "biometricHash": "21f70c8fb6948af0bb4fa4a1bd0f5c8c9f6cf4617e5e8cd6190c4305268682d6"
+          },
+          "proof": {
+            "type": "Ed25519Signature2020",
+            "created": "2026-10-26T15:34:48.646Z",
+            "verificationMethod": "did:veri:Lv0D2JrAQw2CtvqJPv2UaUXktPPK8rHWWu7u6o6npGU",
+            "proofValue": "-GJYgAnGtE64XajFXLJ_BwRH0VeVsLqSP7GlAz4DoM309qq-4h9Ap6yfqsBf9OT0uYMbn1i7aGu90r_2h6CBCQ"
+          }
+        },
+        "claims": {
+          "fullName": "Aarav Sharma",
+          "passportNumber": "Z6894321",
+          "nationality": "INDIAN",
+          "dateOfBirth": "1996-08-15",
+          "expiryDate": "2034-08-14",
+          "issuingCountry": "INDIA",
+          "placeOfIssue": "NEW DELHI",
+          "biometricHash": "bio_sha256_in_9f82d1a4"
+        },
+        "salts": {
+          "fullName": "a6326b09288fae3e7468ccd5ca54dcb0",
+          "passportNumber": "6c3ba447d76f11b3fe8e95d0d00fba7e",
+          "nationality": "d92e5b37641a8bde666d5b298db87a0b",
+          "dateOfBirth": "b90b58c86ef9a9cd93eeec67e5ffec4b",
+          "expiryDate": "223e3dde9c8668489c7d119b34b08964",
+          "issuingCountry": "efdbb830907aea6a81cc284c5471ae3a",
+          "placeOfIssue": "d49c7873f84a8016986987922e22f2a3",
+          "biometricHash": "78500e794822755e34b7bc4545b1d453"
+        }
+      },
+      {
+        "credential": {
+          "id": "urn:uuid:d5bcbcb9-e563-45d3-b5f8-910c702658c1",
+          "type": [
+            "VerifiableCredential",
+            "BankStatementCredential"
+          ],
+          "issuer": "did:veri:Lv0D2JrAQw2CtvqJPv2UaUXktPPK8rHWWu7u6o6npGU",
+          "subject": "did:veri:k9v2Fs9F55ouXOeU95TiRm4DERhVPc3PZiK3mK2PvQY",
+          "issuedAt": "2026-10-26T15:34:48.646Z",
+          "claimDigests": {
+            "accountHolder": "67a9854f23e079c2fd49c22ec2dd4658b8a2e6f7acbdb77b876b2f7d31ed9dc6",
+            "bankName": "ea38f28252c374314f67756996a7bf3690bd00f2c196050a535861058d9ff013",
+            "accountNumber": "810f108fa607540db6807b20f6453090baed60be34ea8db5f52bce964e683578",
+            "balanceInr": "9bce1e59982c537c1b41d4d44135c0b0f5591a63e4e740bd567fc505395533da",
+            "balanceUsd": "087ce55ec14795dc34fa142555a60b2fc7baaa561d47031e339a583a92db9a52",
+            "currency": "e00217b7c4f3c2344c6cd85d8c4362388be921581f6f89a849b17afefe6c2b30",
+            "issueDate": "1873c6f5b8b979c08a14acf658bc815673d53f8002db483bb7e51a80f31b4f77",
+            "verifiedProofOfFunds": "58a3ad3cb0a30ada7af75b5ad2397404e92547eb07bb2c36eedbe3dda0472b29"
+          },
+          "proof": {
+            "type": "Ed25519Signature2020",
+            "created": "2026-10-26T15:34:48.647Z",
+            "verificationMethod": "did:veri:Lv0D2JrAQw2CtvqJPv2UaUXktPPK8rHWWu7u6o6npGU",
+            "proofValue": "NPd18kRi1_FgpXd6XPhHg7xw24V9iKC_Mr5Jut40_ChY6b5C63bMP8Xa7aTeQ5yMokEwUFS2fXDvWXRz6woeAw"
+          }
+        },
+        "claims": {
+          "accountHolder": "Aarav Sharma",
+          "bankName": "State Bank of India (SBI)",
+          "accountNumber": "SBIN00012349876",
+          "balanceInr": 1540000,
+          "balanceUsd": 18500,
+          "currency": "INR",
+          "issueDate": "2026-10-01",
+          "verifiedProofOfFunds": true
+        },
+        "salts": {
+          "accountHolder": "15437536dc4702e2c2adb75e528e86fd",
+          "bankName": "77043530f605a3851deeef9da28e7d2b",
+          "accountNumber": "49d405a15165d88d70a2d43b8682a74e",
+          "balanceInr": "9e4e31c988e3aa597b16531400e22e69",
+          "balanceUsd": "9ad2e2b314bccdc31046a131a0939dbb",
+          "currency": "3595245a755848a9dade745cd2db19fa",
+          "issueDate": "7a8cb685912549fb9da4de4fc46f53c2",
+          "verifiedProofOfFunds": "472dcb3764c569b9775275e7cb6627ae"
+        }
+      },
+      {
+        "credential": {
+          "id": "urn:uuid:ae6db0b4-26be-4a16-b031-1fd26e1afcb5",
+          "type": [
+            "VerifiableCredential",
+            "InsuranceCredential"
+          ],
+          "issuer": "did:veri:Lv0D2JrAQw2CtvqJPv2UaUXktPPK8rHWWu7u6o6npGU",
+          "subject": "did:veri:k9v2Fs9F55ouXOeU95TiRm4DERhVPc3PZiK3mK2PvQY",
+          "issuedAt": "2026-10-26T15:34:48.647Z",
+          "claimDigests": {
+            "policyHolder": "f1b97a2d8ed23c36ea2eaf2d14e52ce5f9c36ab17d4aef70aeeba2cc8d9f3f6c",
+            "provider": "7ead8ce01eb7af831cce608265745f98b0c70a0bd4ab4f8f6ffb4ed005744a23",
+            "policyNumber": "a145b2c4d0d6479259c9d0334aa6c0d7202c57dcf19cf0f2218b22716d7e4ea1",
+            "coverageAmountInr": "3250ecac533c54b60f8df89002135f9169db90608063693f36cce4529c47b8ac",
+            "coverageAmountUsd": "5f7abeaf8b224c3fce8a949717ad3e82919473e1b665f787e43e1cfc9bb8bed4",
+            "validUntil": "8210c212ee6cbf85eb3f058d5c32d5b8c936bf01877a18be3e47141c21dc80cf",
+            "repatriationIncluded": "c037c2f29aee3d39e1ed6383292815c6bb2d841daf79af282944bdede4d75f7a"
+          },
+          "proof": {
+            "type": "Ed25519Signature2020",
+            "created": "2026-10-26T15:34:48.647Z",
+            "verificationMethod": "did:veri:Lv0D2JrAQw2CtvqJPv2UaUXktPPK8rHWWu7u6o6npGU",
+            "proofValue": "Vo2a2ovW-K23MPDTxYF41TUhJ_KzX5Ig0kPv3CQGuiUnyxBVhbvK7akh_ZeUXn6Dx_7Saxkiazt_dfa_HxsBBg"
+          }
+        },
+        "claims": {
+          "policyHolder": "Aarav Sharma",
+          "provider": "Star Health International Travel Shield",
+          "policyNumber": "SH-IN-992014",
+          "coverageAmountInr": 8000000,
+          "coverageAmountUsd": 100000,
+          "validUntil": "2027-12-31",
+          "repatriationIncluded": true
+        },
+        "salts": {
+          "policyHolder": "ff64e2426141169c2e12d9353b514da5",
+          "provider": "4c94dba46ac622eab518f78c5a555bec",
+          "policyNumber": "5d2c2fdacec7220989d8a222cff2678e",
+          "coverageAmountInr": "72428809e55f0df2f26fbbacce287c24",
+          "coverageAmountUsd": "0ea1c83e51155175887c25ef1aa95978",
+          "validUntil": "8d8a6b3eefa61bf99d7f2cf7b0af092f",
+          "repatriationIncluded": "200c3835ecd70b1d2995892bd146b4fd"
+        }
+      },
+      {
+        "credential": {
+          "id": "urn:uuid:fd9a440b-c3c3-4d68-a238-68122b679ae9",
+          "type": [
+            "VerifiableCredential",
+            "ItineraryCredential"
+          ],
+          "issuer": "did:veri:Lv0D2JrAQw2CtvqJPv2UaUXktPPK8rHWWu7u6o6npGU",
+          "subject": "did:veri:k9v2Fs9F55ouXOeU95TiRm4DERhVPc3PZiK3mK2PvQY",
+          "issuedAt": "2026-10-26T15:34:48.647Z",
+          "claimDigests": {
+            "travelerName": "31cd233a3b58c0fc87469c749b14447a12b47e05c15fa2ab8f6f7c4cd607ce84",
+            "airline": "c694f0fd79abfb4f7bfafa7080e7a2914a87aea40e85009d160a27956f72f2d7",
+            "flightNumber": "4d728dd7421cc9ba1df403b6de4793f9d4e1706837ccc2d299c80dda268a1b44",
+            "departureAirport": "d59982f79380371c4c43ec0042a21a8836b8277d87c96cb9e8721254e11c5211",
+            "destinationCountry": "c8f931c834b8fe6f8e49d6c65183a1a18fd8d01150b7188854b768a8e49cb53b",
+            "departureDate": "ee6dc9612a91ed5eadc6bc48c8c2e6d3bf5229bee6207025388f6205a62c0625",
+            "returnDate": "3d8342b42e28c75c48b3ad011005d76cbcf57b63042131b8aab93eaa8fd47c3c",
+            "accommodationBooked": "5019f23c1d2d4d9ecd07b2a71feb527d23ae554ecc156282020edcf035063a21"
+          },
+          "proof": {
+            "type": "Ed25519Signature2020",
+            "created": "2026-10-26T15:34:48.648Z",
+            "verificationMethod": "did:veri:Lv0D2JrAQw2CtvqJPv2UaUXktPPK8rHWWu7u6o6npGU",
+            "proofValue": "GIuu8ovI7j75z34vsDdl0THIPZdzqw5T3cx3nmNj8iO2g4_XFGG3kkEN495Lhpl8ze2Llsf24g4xdkPXHsidBQ"
+          }
+        },
+        "claims": {
+          "travelerName": "Aarav Sharma",
+          "airline": "Air India",
+          "flightNumber": "AI-143",
+          "departureAirport": "DEL (IGI Airport, New Delhi)",
+          "destinationCountry": "FRANCE",
+          "departureDate": "2026-11-10",
+          "returnDate": "2026-11-28",
+          "accommodationBooked": true
+        },
+        "salts": {
+          "travelerName": "c352584bad5e64df82e57aabf650d76a",
+          "airline": "f0fa26bb79de2736e083ee2c6df3b92e",
+          "flightNumber": "97bf0c1d68c4370e8de644fde1d6ccf0",
+          "departureAirport": "0dcbe490bd144ef612bc95bc87e0c966",
+          "destinationCountry": "3bd9e012113b1fe8a8fb93250a5aa095",
+          "departureDate": "b04a102dd18f133afc2da2620fcfff2d",
+          "returnDate": "78d7b23f8fbaf9faee8b9f5d0867931b",
+          "accommodationBooked": "10364cb777df1b4488654c581b461a5b"
+        }
+      }
+    ],
+    "did:veri:6wY6SIs--hD8AweeAvcNqVC4ypHiqqgnlCNrn2Gw5WI": [
+      {
+        "credential": {
+          "id": "urn:uuid:a7fbdffc-2141-4218-a804-d34df8e7f829",
+          "type": [
+            "VerifiableCredential",
+            "PassportCredential"
+          ],
+          "issuer": "did:veri:Lv0D2JrAQw2CtvqJPv2UaUXktPPK8rHWWu7u6o6npGU",
+          "subject": "did:veri:6wY6SIs--hD8AweeAvcNqVC4ypHiqqgnlCNrn2Gw5WI",
+          "issuedAt": "2026-10-27T12:34:14.249Z",
+          "claimDigests": {
+            "fullName": "ad3773ba66643868bc7cfece9ac2da3089f6dcc0d2ed523ca325c4e22c32f22b",
+            "passportNumber": "64eee71388407a3852aa3cbe2d21b66d9d8178491cc6dcb949945242aca30967",
+            "nationality": "add0a1784e690c12183b3932fed7ff93024a0b615b37d69e3004b661380c71d7",
+            "dateOfBirth": "253faf94c496f83ba92d2b814eb64288788087fca93504711f1ba9319b6057f7",
+            "expiryDate": "2cfa1334fe85fea939be0b2234d42e54406f96b3e3ead8e25c42958e710a98e7",
+            "issuingCountry": "ae968f6a6812230044bdc14a03f13cbb1f9a738f2e67789cfd5dea09413cdced",
+            "placeOfIssue": "1d99c23068f4f0a07d6fcedb0bf639199cd91d33fa223a775e46fe163765ebf1",
+            "biometricHash": "7edd4e737d123a040681beb0ebed3df1b04e3e749c2b031779aa343f6ee7e5b9"
+          },
+          "proof": {
+            "type": "Ed25519Signature2020",
+            "created": "2026-10-27T12:34:14.250Z",
+            "verificationMethod": "did:veri:Lv0D2JrAQw2CtvqJPv2UaUXktPPK8rHWWu7u6o6npGU",
+            "proofValue": "qv5cI9sThnehgDxcrUz3iQ3E6BEaSdqdlBdRJYHaxXTXhqrUoPphdxeZ202zhsq2TLLbXaWuZB0pe22TCZv5CA"
+          }
+        },
+        "claims": {
+          "fullName": "Aarav Sharma",
+          "passportNumber": "Z6894321",
+          "nationality": "INDIAN",
+          "dateOfBirth": "1996-08-15",
+          "expiryDate": "2034-08-14",
+          "issuingCountry": "INDIA",
+          "placeOfIssue": "NEW DELHI",
+          "biometricHash": "bio_sha256_in_9f82d1a4"
+        },
+        "salts": {
+          "fullName": "b8f7f2810e5074e59766d8c89148a7c7",
+          "passportNumber": "536c480f9ad6c0092b942f6fbf0a2688",
+          "nationality": "3935ead01aa4001402fce6ea82b2b687",
+          "dateOfBirth": "54a3da1489c532a53064554c187095fa",
+          "expiryDate": "1f5911b747154ce5413d508b202050f7",
+          "issuingCountry": "0c1f44617ef50b1c274f91d690d2d8cc",
+          "placeOfIssue": "583fd70e658d1282a28490e8d21e319f",
+          "biometricHash": "ac36ee0965cf092a59f698059f7b66e3"
+        }
+      },
+      {
+        "credential": {
+          "id": "urn:uuid:e874958c-7eb4-423b-8c24-836db559593a",
+          "type": [
+            "VerifiableCredential",
+            "BankStatementCredential"
+          ],
+          "issuer": "did:veri:Lv0D2JrAQw2CtvqJPv2UaUXktPPK8rHWWu7u6o6npGU",
+          "subject": "did:veri:6wY6SIs--hD8AweeAvcNqVC4ypHiqqgnlCNrn2Gw5WI",
+          "issuedAt": "2026-10-27T12:34:14.250Z",
+          "claimDigests": {
+            "accountHolder": "66a552f60f6269c4c208571594d0ecb648689d5fda5b4b898f231195b09e99fd",
+            "bankName": "94f2f9fece4842920359a70d679c89ec30221263b32ef8f4dd1228402e6eb550",
+            "accountNumber": "287fd14afd045d54badaac39ff29d65d96588da7b6cc535badf1b31306a4cf9d",
+            "balanceInr": "563e6d9853aa69d68b8cf8a86f6ed52f4e66238cd6fcbf4712f17bbc50ae99b4",
+            "balanceUsd": "2e5da9f4f5325ea65f15b01ab79de5002f41f45ba74f8869669fe01a77177e63",
+            "currency": "18c09499bdb54ed9bd760f2a03eeca5a260d6c505d592f0e869e45f0e66ee779",
+            "issueDate": "39f529e0fb7c12a9166d88bbf058d6b57e50e471cb3c291e50e9b79f390abc5e",
+            "verifiedProofOfFunds": "fc9f5571e56d41896075220f6f4439f18e766d06ba005049c111deaf7a70f76a"
+          },
+          "proof": {
+            "type": "Ed25519Signature2020",
+            "created": "2026-10-27T12:34:14.251Z",
+            "verificationMethod": "did:veri:Lv0D2JrAQw2CtvqJPv2UaUXktPPK8rHWWu7u6o6npGU",
+            "proofValue": "L3M4ULZyndGdqqAAu5PfkjAhKqxdQ50x959jFePyhprGk4BtP7o0TWXV79lGmiViKgy3kBp6Wv36NOPvH6PKCg"
+          }
+        },
+        "claims": {
+          "accountHolder": "Aarav Sharma",
+          "bankName": "State Bank of India (SBI)",
+          "accountNumber": "SBIN00012349876",
+          "balanceInr": 1540000,
+          "balanceUsd": 18500,
+          "currency": "INR",
+          "issueDate": "2026-10-01",
+          "verifiedProofOfFunds": true
+        },
+        "salts": {
+          "accountHolder": "4a497c1b7fbef6fdf25de33c8958069c",
+          "bankName": "47321ea5308bf9c56b9bd612b928fdf9",
+          "accountNumber": "dfbc5e1e71a07346091f105a85a6dcc4",
+          "balanceInr": "f131ee64f3c2aa663723994ffd6eaebf",
+          "balanceUsd": "d738a965947c6820535247c6fd4e24a1",
+          "currency": "e2bcfdb5f2664e3d84dfdc69f7519eda",
+          "issueDate": "cf56f3359c66e00c4e287c73fc96cf3d",
+          "verifiedProofOfFunds": "4ceb77a36ba90a9f3925302ac83ace64"
+        }
+      },
+      {
+        "credential": {
+          "id": "urn:uuid:38285add-32ad-4436-8126-1efd7fd477f8",
+          "type": [
+            "VerifiableCredential",
+            "InsuranceCredential"
+          ],
+          "issuer": "did:veri:Lv0D2JrAQw2CtvqJPv2UaUXktPPK8rHWWu7u6o6npGU",
+          "subject": "did:veri:6wY6SIs--hD8AweeAvcNqVC4ypHiqqgnlCNrn2Gw5WI",
+          "issuedAt": "2026-10-27T12:34:14.251Z",
+          "claimDigests": {
+            "policyHolder": "ce8c0b3ec15029e9fee82c8cd6be136a2dc46aadec1076b8efea6dd885ac46fe",
+            "provider": "3108982d4fa885e894b1098e8d16a1e4d116dbe60b5d17b45cc164a3fe06a75a",
+            "policyNumber": "d1790fd615cc3ec93e9ee5d3b416e81aa246199c6b17d2ad2346c52ea64dfb28",
+            "coverageAmountInr": "e2fd09511811059737390b89c592d610f39c645338d28cb82ef312bc2bbee5c3",
+            "coverageAmountUsd": "830ca9692d62801a3003387cf8c6568829cd7be573ce76cdc7178ef1dbfcb296",
+            "validUntil": "7583326b062ed7a33832e0c9e8a76e09d8933535a62b0b46b3c07e321cf220e4",
+            "repatriationIncluded": "c2d03b5d97922a1725a4efceed440e67ce996f529ba5bd2c8a6a310ccd8b698d"
+          },
+          "proof": {
+            "type": "Ed25519Signature2020",
+            "created": "2026-10-27T12:34:14.251Z",
+            "verificationMethod": "did:veri:Lv0D2JrAQw2CtvqJPv2UaUXktPPK8rHWWu7u6o6npGU",
+            "proofValue": "Xu-NOvb-yt-S7Vkj4-3DMKq37dy-88pE4kmnGtU9mPhwN6xZlH4F8HS3WnxkS922rkgQi6eKkfahBE0vDm8ZAg"
+          }
+        },
+        "claims": {
+          "policyHolder": "Aarav Sharma",
+          "provider": "Star Health International Travel Shield",
+          "policyNumber": "SH-IN-992014",
+          "coverageAmountInr": 8000000,
+          "coverageAmountUsd": 100000,
+          "validUntil": "2027-12-31",
+          "repatriationIncluded": true
+        },
+        "salts": {
+          "policyHolder": "71766c392e270faf8a4aa7dd48ab31a7",
+          "provider": "78b16168cefad9c04782224a4b06debd",
+          "policyNumber": "95846a4b4ee33aa0585ee45fab46d330",
+          "coverageAmountInr": "f35199357b8c957ff3b19f9204df0bf8",
+          "coverageAmountUsd": "8461acd85c395bf3c2aa555134083a85",
+          "validUntil": "dc4ee2fe74e1ebf899ea1568f979cb5d",
+          "repatriationIncluded": "237cd2a86e6ddc04c9b55894f1ae27df"
+        }
+      },
+      {
+        "credential": {
+          "id": "urn:uuid:922c71f6-e608-4216-9e68-ec4266477b30",
+          "type": [
+            "VerifiableCredential",
+            "ItineraryCredential"
+          ],
+          "issuer": "did:veri:Lv0D2JrAQw2CtvqJPv2UaUXktPPK8rHWWu7u6o6npGU",
+          "subject": "did:veri:6wY6SIs--hD8AweeAvcNqVC4ypHiqqgnlCNrn2Gw5WI",
+          "issuedAt": "2026-10-27T12:34:14.252Z",
+          "claimDigests": {
+            "travelerName": "1b0377e4137362711b29278cba91f96b79725f3cb12472c013035f8e712a9d04",
+            "airline": "bdaa2eaa778698ccebea1e170a975270f99c7e833a5757ad6233b3f5f49037c0",
+            "flightNumber": "ee9d94870be28e2eb21653960cb84c1dc4ff9ea689ad1f1c5babd82fe7d3c4c7",
+            "departureAirport": "ab55b06fdf5ca15c65232878b83a8ab13a4cce4156ad90183a49750a9e9cad78",
+            "destinationCountry": "538fdc37aa9de406405948e308eb7195fd48a2f38a282feb3b9aea5d65f1bbc6",
+            "departureDate": "6e2c279dd57d2a95c24f3e6bd43fe627b1b796d3ab40586e29870c029095036a",
+            "returnDate": "79583db0c2625ac02e49871da24580807b8376cca4d6287825df4ba3efb92faf",
+            "accommodationBooked": "3b9c605567228da12712368cc0eaa3f86d3da3f78d96edc9dd758e2f8261238f"
+          },
+          "proof": {
+            "type": "Ed25519Signature2020",
+            "created": "2026-10-27T12:34:14.252Z",
+            "verificationMethod": "did:veri:Lv0D2JrAQw2CtvqJPv2UaUXktPPK8rHWWu7u6o6npGU",
+            "proofValue": "aP6SrOM6rSNBg92eP5wvhP1ttX_2bxTlBTTnKwi2QyKck8eac60wlA1DJdMUgCLGItLiFzK621A7juYOK5CoAw"
+          }
+        },
+        "claims": {
+          "travelerName": "Aarav Sharma",
+          "airline": "Air India",
+          "flightNumber": "AI-143",
+          "departureAirport": "DEL (IGI Airport, New Delhi)",
+          "destinationCountry": "FRANCE",
+          "departureDate": "2026-11-10",
+          "returnDate": "2026-11-28",
+          "accommodationBooked": true
+        },
+        "salts": {
+          "travelerName": "c747901e020eea27eb70d9c0a0edc83e",
+          "airline": "5c2e510f9059140a83f3a76d47218d87",
+          "flightNumber": "ef681051085745e6f925cee03e978549",
+          "departureAirport": "fcfd02b8a512e8e4229128de0c3df664",
+          "destinationCountry": "8ab100d260df429be4e2e56453da9d4e",
+          "departureDate": "7b8f36dfce76b766f7a3ff0f852ff87b",
+          "returnDate": "13df25c7fad5781e980c8262010b966c",
+          "accommodationBooked": "d3fc22497b6f4c09eb7b41d891db0a12"
+        }
+      }
+    ]
+  },
+  "revocations": {},
+  "challenges": {},
+  "policies": {
+    "immigration-delhi-airport": {
+      "verifierId": "immigration-delhi-airport",
+      "name": "Bureau of Immigration (BOI) - IGI Airport New Delhi",
+      "allowedClaims": [
+        "passportNumber",
+        "nationality",
+        "fullName",
+        "dateOfBirth",
+        "expiryDate",
+        "visaStatus"
+      ],
+      "registeredAt": "2026-10-22T14:09:53.695Z"
+    },
+    "hotel-checkin": {
+      "verifierId": "hotel-checkin",
+      "name": "Taj Palace & IRCTC Hospitality Gate",
+      "allowedClaims": [
+        "fullName",
+        "nationality"
+      ],
+      "registeredAt": "2026-10-22T14:09:53.695Z"
+    },
+    "digilocker-kyc": {
+      "verifierId": "digilocker-kyc",
+      "name": "DigiLocker KYC Trust Network",
+      "allowedClaims": [
+        "fullName",
+        "passportNumber",
+        "dateOfBirth"
+      ],
+      "registeredAt": "2026-10-22T14:09:53.695Z"
+    }
+  },
+  "recoveryRequests": {
+    "rec-test-123": {
+      "id": "rec-test-123",
+      "did": "did:veri:_Aa1Lyo0QzroDKNqME9OK5iCI4MHxJai9Hw4mHHthY4",
+      "newPublicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAFVd3dS8RSxb48YxfYKQqMI6NWBO+GTN9Bo6QeDQgw6c=\n-----END PUBLIC KEY-----\n",
+      "newDid": "did:veri:FVd3dS8RSxb48YxfYKQqMI6NWBO-GTN9Bo6QeDQgw6c",
+      "guardianCodes": {
+        "guardian1@example.com": "111111",
+        "guardian2@example.com": "222222",
+        "guardian3@example.com": "333333"
+      },
+      "approvedGuardians": [],
+      "status": "pending",
+      "createdAt": 1792678193695,
+      "expiresAt": 1792678293695
+    }
+  },
+  "breaches": {}
+}
